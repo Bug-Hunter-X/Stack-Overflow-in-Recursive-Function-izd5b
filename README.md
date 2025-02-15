@@ -1,0 +1,3 @@
+# Stack Overflow in Recursive Function
+
+This repository demonstrates a common error in C# involving stack overflow exceptions in recursive functions.  The `MyClass.cs` file contains a recursive function that can easily lead to a stack overflow error if the input parameters (`a` and `b`) are large. The `MyClassSolution.cs` file provides a solution by adding checks and using iteration instead of recursion to prevent the error.
